@@ -1,13 +1,69 @@
 /*All Elements*/
-*{
+body{
     color: white;
-    background-color:hsl(213, 19%, 18%);
+    background-color:hsl(213, 16%, 11%);
 }
+
+@font-face {
+    font-family: [Overpass];
+    src: url(https://fonts.google.com/specimen/Overpass);
+  }
+
 #all{
-    background-color:hsl(213, 19%, 18%);
     display: block;
+    background-color:hsl(213, 19%, 18%);
     margin-left: auto;
     margin-right: auto;
     margin-top: 20rem;
     width: 25%;
+    border-radius: 1.34rem;
+    padding: 2rem;
 }
+#star{
+    border-radius: 100px;
+    background-color:hsl(222, 26%, 17%);
+    padding:.8rem;
+}
+/*Text h1 and paragraph*/
+#text{
+
+}
+p{
+    font-size: 0.938rem;
+    color: hsl(217, 12%, 63%);
+ }
+/*Buttons*/
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.buttons{
+    flex-shrink: 3;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(222, 26%, 17%); /* Green */
+    border: none;
+    border-radius: 6rem;
+    width: 3rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 15px;
+    margin: .3rem;
+ }
+ #submit{
+    display: block;
+    flex-shrink: 1;
+    color: orange;
+    background-color:white;
+    border: none;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: .15rem;
+    font-weight: bold;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+ }
