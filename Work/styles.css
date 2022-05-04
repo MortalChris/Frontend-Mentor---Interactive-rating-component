@@ -1,4 +1,13 @@
+/*All Elements*/
 *{
-    color: hsl(216, 12%, 8%);
+    color: white;
     background-color:hsl(213, 19%, 18%);
+}
+#all{
+    background-color:hsl(213, 19%, 18%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem;
+    width: 25%;
 }
