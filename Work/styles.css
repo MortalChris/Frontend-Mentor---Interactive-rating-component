@@ -15,7 +15,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20rem;
-    width: 25%;
+    width: 18%;
     border-radius: 1.34rem;
     padding: 2rem;
 }
@@ -36,7 +36,7 @@ p{
     color: hsl(217, 12%, 63%);
  }
 /*Buttons*/
-#container{
+form{
     display: flex;
     justify-content: space-evenly;
     justify-content: center;
@@ -52,17 +52,23 @@ p{
     text-align: center;
     font-size: 15px;
     margin: .5rem;
+    flex-grow: 3;
+    flex-shrink: 3;
+ }
+ .buttons:hover{
+     background: hsl(36, 100%, 46%);
+     color: white;
  }
 
 
 /*Submit button*/
- #container-2{
+form{
     display: flex;
  }
  #submit{
    flex-grow: 3;
     flex-shrink: 3;
-    color: hsl(41, 100%, 50%);
+    color: hsl(36, 100%, 46%);
     background-color:white;
     border: none;
     border-radius: 5rem;
@@ -72,6 +78,10 @@ p{
     font-weight: bold;
     width: 22rem;
     height: 2rem;
+ }
+ #submit:hover{
+    background: hsl(39, 100%, 46%);
+    color: white;
  }
  /*padding-left: 12rem;
     padding-right: 12rem;
