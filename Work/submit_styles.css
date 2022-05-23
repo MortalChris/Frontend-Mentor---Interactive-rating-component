@@ -1,0 +1,60 @@
+/*All Elements*/
+body{
+    color: white;
+    background-color:hsl(213, 16%, 11%);
+}
+
+@font-face {
+    font-family: [Overpass];
+    src: url(https://fonts.google.com/specimen/Overpass);
+  }
+
+#all{
+    display: block;
+    background-color:hsl(213, 19%, 18%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem;
+    width: 18%;
+    border-radius: 1.34rem;
+    padding: 2rem;
+}
+/*Image*/
+#container{
+  display: flex;
+  justify-content: center;
+}
+#thx_image{
+  padding:1rem; 
+ 
+}
+/*Text h1 and paragraph*/
+h1{
+    text-align:center;
+    margin-bottom: .5rem;
+    font-size: 1.7rem;
+}
+.thanks{
+    margin-top: .8rem;
+    font-size: 0.938rem;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+ }
+/*Rating result parapgrah*/
+#rating_result{
+  display: flex;
+  justify-content:center;
+  font-size: .98;
+  background-color: hsl(222, 26%, 17%);
+  color: hsl(36, 100%, 46%);
+  border-radius: 5rem;
+  margin: 1rem;
+}
+.rating{
+  text-align:center;
+  margin: auto;
+  padding: 2px;
+  margin-left: 1px;
+  margin-right: 2px;
+ 
+}

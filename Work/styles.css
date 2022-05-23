@@ -52,18 +52,22 @@ form{
     text-align: center;
     font-size: 15px;
     margin: .5rem;
-    flex-grow: 3;
-    flex-shrink: 3;
+    
  }
  .buttons:hover{
      background: hsl(36, 100%, 46%);
      color: white;
  }
-
+ .buttons:active{
+    background:hsl(36, 20%, 56%);
+  }
 
 /*Submit button*/
-form{
+forms1{
     display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding-bottom: 1.5rem;
  }
  #submit{
    flex-grow: 3;
@@ -76,14 +80,19 @@ form{
     font-size: .7rem;
     letter-spacing: .15rem;
     font-weight: bold;
-    width: 22rem;
-    height: 2rem;
+    max-width: 22rem;
+    max-height: 2rem;
  }
  #submit:hover{
     background: hsl(39, 100%, 46%);
     color: white;
  }
+
+
  /*padding-left: 12rem;
     padding-right: 12rem;
     padding-top: .7rem;
-    padding-bottom: .7rem;*/
+    padding-bottom: .7rem;
+    
+     @ media
+    */
