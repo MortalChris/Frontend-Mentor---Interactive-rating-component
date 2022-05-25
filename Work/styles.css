@@ -58,9 +58,12 @@ form{
      background: hsl(36, 100%, 46%);
      color: white;
  }
- .buttons:active{
+ .buttons:target{
+    background: hsl(36, 100%, 46%);
+ }
+ /*.buttons:active{
     background:hsl(36, 20%, 56%);
-  }
+  } */
 
 /*Submit button*/
 forms1{
@@ -80,8 +83,8 @@ forms1{
     font-size: .7rem;
     letter-spacing: .15rem;
     font-weight: bold;
-    max-width: 22rem;
-    max-height: 2rem;
+    width: clamp(10rem, 22rem, 22rem);
+    min-height: 2rem;
  }
  #submit:hover{
     background: hsl(39, 100%, 46%);
