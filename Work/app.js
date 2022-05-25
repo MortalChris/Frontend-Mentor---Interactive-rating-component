@@ -1,12 +1,25 @@
-const selected = document.getElementById("selected#");
+const selected = document.getElementById("selected");
 function button1(){
-    selected.innerHtml = "1";
+    selected.textContent = "1";
+}
+function button2(){
+    selected.textContent = "2";
+}
+function button3(){
+    selected.textContent = "3";
+}
+function button4(){
+    selected.textContent = "4";
+}
+function button5(){
+    selected.textContent = "5";
 }
 
-
-
-
-
+console.log(button1())
+console.log(button2())
+console.log(button3())
+console.log(button4())
+console.log(button5())
 
 
 

@@ -52,15 +52,13 @@ form{
     text-align: center;
     font-size: 15px;
     margin: .5rem;
-    
+    cursor: pointer;
  }
- .buttons:hover{
-     background: hsl(36, 100%, 46%);
-     color: white;
- }
- .buttons:target{
+ .buttons:hover, .buttons:active, .buttons:focus {
     background: hsl(36, 100%, 46%);
- }
+     color: white;
+}
+ 
  /*.buttons:active{
     background:hsl(36, 20%, 56%);
   } */
